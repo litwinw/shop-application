@@ -20,8 +20,8 @@ class ItemsList:
         s = itemgetter('name')
         self.ItemList.sort(key = s)
         print(self.ItemList)
-Items = ItemsList()
-Items.displaysorted()
+listOfItems = ItemsList()
+listOfItems.displaysorted()
 
 
 
