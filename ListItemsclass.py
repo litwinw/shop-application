@@ -12,6 +12,7 @@ trousers = Item("trousers", 59.99, True)
 dress = Item("dress", 79.99, True)
 blackdress = Item("black dress", 79.99, True)
 # to powinno pojawi sie na github
+# to też powinno być na githubie
 class ItemsList:
     def __init__(self):
         self.ItemList = [jacket.__dict__, cottonshirt.__dict__, shirt.__dict__,trousers.__dict__, blackdress.__dict__, dress.__dict__]
